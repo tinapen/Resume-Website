@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #e9e4e4;
+  font-family: comic neue, sans-serif;
+  line-height: 1.2;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+img {
+  width: 100%;
+}
+
+.education.skills,
+.technologies,
+.employment {
+  height: 50vh;
+}
+
+.card {
+  background: #fff;
+  border-radius: 5px;
+  margin: 10px 30px 10px;
+  padding: 20px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  padding: 0 30px 0;
+  opacity: 0.8;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+}
+
+.navbar a {
+  padding: 10px 10px 0;
+  margin: 0 5 px;
+  color: #fff;
+}
+
+.navbar a:hover {
+  border-bottom: #fff 1px solid;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.hero-content {
+  margin-top: 5%;
+}
+
+.hero-content a:hover {
+  border-bottom: #000 1px solid;
+}
+.class-space {
+  margin-bottom: 50px;
+}
+.section-header {
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.education-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+}
+
+#bootcamp,
+#senior-high-2,
+#college,
+#senior-high-1 {
+  border: #000 1px solid;
+  border-radius: 10px;
+}
+
+.educ-items:hover {
+  background: #000;
+  color: #fff;
+}
+.skills-content,
+.technologies-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 5% 10% 10px;
+  grid-gap: 10px;
+}
+
+.skills-items {
+  padding: 15px;
+  text-align: center;
+  border: #000 1px solid;
+  border-radius: 5px;
+  font-size: 50px;
+}
+
+.skills-items:hover {
+  background: #000;
+  color: #fff;
+}
+
+.employment {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 10px 10% 0;
+  grid-gap: 10px;
+  text-align: center;
+}
+
+.projects-items {
+  background: #000;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px;
+}
+
+.projects-items a {
+  color: #fff;
+}
+.projects-items img:hover {
+  opacity: 0.7;
+}
+
+.projects-items p {
+  margin-bottom: 5px;
+}
+
+.projects-items a:hover {
+  background: #fff;
+  border: 5px;
+  color: #000;
+  padding: 5px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  opacity: 0.9;
+  width: 100%;
+  height: 70px;
+}
