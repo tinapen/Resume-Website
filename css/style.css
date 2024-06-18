@@ -23,16 +23,15 @@ img {
   width: 100%;
 }
 
-.education.skills,
-.technologies,
-.employment {
+.education .skills,
+.technologies {
   height: 50vh;
 }
 
 .card {
   background: #fff;
   border-radius: 5px;
-  margin: 10px 30px 10px;
+  margin: 10px 30px 20px;
   padding: 20px;
 }
 .navbar {
@@ -65,13 +64,11 @@ img {
 
 .hero-content {
   margin-top: 5%;
+  line-height: 1.5;
 }
 
 .hero-content a:hover {
   border-bottom: #000 1px solid;
-}
-.class-space {
-  margin-bottom: 50px;
 }
 .section-header {
   text-align: center;
@@ -91,6 +88,7 @@ img {
 #senior-high-1 {
   border: #000 1px solid;
   border-radius: 10px;
+  padding: 10px;
 }
 
 .educ-items:hover {
@@ -101,7 +99,6 @@ img {
 .technologies-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 5% 10% 10px;
   grid-gap: 10px;
 }
 
@@ -118,15 +115,9 @@ img {
   color: #fff;
 }
 
-.employment {
-  display: flex;
-  flex-direction: column;
-  justify-self: center;
-  align-items: center;
-  text-align: center;
-  height: 100%;
+.experience {
+  line-height: 1.5;
 }
-
 .projects-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
